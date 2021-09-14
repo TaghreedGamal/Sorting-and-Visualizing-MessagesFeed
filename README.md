@@ -1,6 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Sorting and Visualizing MessagesFeed Source 
+
+The feed pro-grammatically and categories the messages according to the sentiment (field: sentiment) of the message (field: Message).
+
+The messages should be displayed on a map and attached to the respective cities mentioned in the message bonus: Extra marks will be given for prowess and effort in visualization.
+
+How can the different sentiment categories be visualized on a map and how can time be factored in the visualization ? 
+
+- every category shown with different pin marker (emoji)
+- pin size differ according to time (we assume time by being the order of objects in the JSON)
+
+
+JSON data found here: https://drive.google.com/file/d/1qJ41EMO6EZ_an8WNOGMRWGKYhPgaNeWf/view?usp=sharing
+
+Map view here : https://drive.google.com/file/d/1VtEA9blfTFYqQGTsybVVX46RhidwtTca/view?usp=sharing
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 First, run the development server:
 
@@ -12,23 +29,4 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
