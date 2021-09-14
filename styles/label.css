@@ -1,0 +1,22 @@
+.labelsBox{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    right: 1%;
+    bottom: 0;
+}
+.label{
+    display: flex;
+    align-items: center;
+    width: 110px;
+    margin-bottom: 10px;
+    justify-content:  space-evenly;;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+.label p{
+    margin: 10px 2px;
+    font-weight: bold;
+    font-size: 12px;
+    color:white;
+}

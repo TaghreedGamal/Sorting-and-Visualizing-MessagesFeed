@@ -1,0 +1,17 @@
+.mapboxgl-popup-content{
+    z-index: 10;
+}
+.mapboxgl-popup-content p{
+    margin: 0;
+    text-align: center;
+}
+.mapboxgl-popup-content p:first-of-type{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.mapboxgl-popup{
+    z-index: 100;
+}
+.mapboxgl-ctrl-attrib-inner{
+    display: none;
+}
